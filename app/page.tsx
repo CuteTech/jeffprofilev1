@@ -1,6 +1,6 @@
 import Image from "next/image";
 import CenteredDiv from "./components/CenteredDiv";
-import { FaGithubSquare, FaLinkedinIn } from "react-icons/fa";
+import { FaGithubSquare, FaLinkedinIn, FaRegFilePdf } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 
 export default function Home() {
@@ -46,27 +46,31 @@ export default function Home() {
           </p>
         </div>
         <div className="py-12 space-y-2">
-          <h2 className="text-2xl text-center font-bold text-gray-400">
+          <h2 className="text-xl text-center font-bold text-gray-400">
             Contact Me
           </h2>
-          <div className="flex space-x-10 items-center">
+          <div className="flex space-x-4 items-center justify-center">
             <a href="mailto:jeff.j.ahn@protonmail.com">
               <AiOutlineMail className="secondary-color h-6 w-6" />
             </a>
             <a href="https://www.linkedin.com/in/jeff-j-ahn/" target="_blank">
               <FaLinkedinIn className="secondary-color h-6 w-6" />
             </a>
-            <a href="https://github.com/jeffahn1">
-              <FaGithubSquare className="secondary-color h-6 w-6" />
-            </a>
           </div>
-          {/* contact message box for now email */}
+          <div className="py-12 space-y-2">
+            <h2 className="text-xl text-center font-bold text-gray-400">
+              Resume & Github
+            </h2>
+            <p className="text-center flex items-center justify-center space-x-4">
+              <a href="/jeffahn-resume.pdf">
+                <FaRegFilePdf className="secondary-color h-6 w-6" />
+              </a>
+              <a href="https://github.com/jeffahn1">
+                <FaGithubSquare className="secondary-color h-6 w-6" />
+              </a>
+            </p>
+          </div>
         </div>
-      </div>
-      {/* intro wrapped on mobile */}
-      <div>
-        {/* image */}
-        {/* aboutme */}
       </div>
     </div>
   );
