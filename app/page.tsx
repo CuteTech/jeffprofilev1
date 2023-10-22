@@ -9,25 +9,31 @@ export default function Home() {
       {/* heading contact */}
       <div className="flex justify-between w-full  py-2">
         <div>
-          <h1 className="font-bold text-2xl text-gray-400">Jeff J Ahn</h1>
+          <Image
+            src="/logo.png"
+            alt="Next.js Logo"
+            width={40}
+            height={27}
+            priority
+          />
         </div>
         <div className="flex space-x-4">
           <a href="https://www.linkedin.com/in/jeff-j-ahn/" target="_blank">
-            <FaLinkedinIn />
+            <FaLinkedinIn className="secondary-color h-4 w-4" />
           </a>
           <a href="https://github.com/jeffahn1">
-            <FaGithubSquare />
+            <FaGithubSquare className="secondary-color h-4 w-4" />
           </a>
         </div>
       </div>
 
       <div className="flex flex-col justify-center items-center h-screen">
         <CenteredDiv />
-        <div className="text-center space-y-3">
-          <h1 className="font-bold text-2xl text-gray-300">
+        <div className="text-center space-y-3 py-2">
+          <h2 className="font-bold text-xl text-gray-300">
             Hello! Welcome to my online Profile.
-          </h1>
-          <p>
+          </h2>
+          <p className="text-gray-300">
             I am a New York based SEO Consultant and Financial Analyst with a
             passion for Web Development projects with my Business Partner{" "}
             <a
@@ -39,17 +45,19 @@ export default function Home() {
             .
           </p>
         </div>
-        <div className="py-10 space-y-2">
-          <h2 className="text-xl text-center font-bold">Contact Me</h2>
+        <div className="py-12 space-y-2">
+          <h2 className="text-2xl text-center font-bold text-gray-400">
+            Contact Me
+          </h2>
           <div className="flex space-x-10 items-center">
             <a href="mailto:jeff.j.ahn@protonmail.com">
-              <AiOutlineMail />
+              <AiOutlineMail className="secondary-color h-6 w-6" />
             </a>
             <a href="https://www.linkedin.com/in/jeff-j-ahn/" target="_blank">
-              <FaLinkedinIn />
+              <FaLinkedinIn className="secondary-color h-6 w-6" />
             </a>
             <a href="https://github.com/jeffahn1">
-              <FaGithubSquare />
+              <FaGithubSquare className="secondary-color h-6 w-6" />
             </a>
           </div>
           {/* contact message box for now email */}
