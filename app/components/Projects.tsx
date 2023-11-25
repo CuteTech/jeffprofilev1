@@ -28,8 +28,8 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className="space-y-2 relative mb-10">
-      <h2 className="text-xl text-center font-bold text-gray-400 mb-2">
+    <div className="space-y-2 relative">
+      <h2 className="text-xl text-center font-bold text-gray-400 mb-4">
         Python Projects
       </h2>
       <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4">
