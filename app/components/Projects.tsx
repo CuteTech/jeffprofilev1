@@ -59,7 +59,7 @@ export function Project({
   return (
     <div className="space-y-2 p-2 border rounded-xl border-cyan-500 relative flex flex-col justify-between">
       <h3 className="text-lg text-center font-bold text-gray-400 cursor-pointer">
-        <a href={url} className="underline">
+        <a href={url} className="underline hover:text-cyan-800">
           {title}
         </a>
       </h3>
