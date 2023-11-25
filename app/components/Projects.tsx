@@ -28,7 +28,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className="space-y-2 relative">
+    <div className="space-y-2 relative mb-20">
       <h2 className="text-xl text-center font-bold text-gray-400 mb-4">
         Python Projects
       </h2>
