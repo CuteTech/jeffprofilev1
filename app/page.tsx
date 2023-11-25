@@ -28,9 +28,9 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center h-screen relative mt-10">
+      <div className="flex flex-col justify-center items-center  relative mt-10">
         <CenteredDiv />
-        <div className="text-center space-y-3 py-2 ">
+        <div className="text-center space-y-3 py-2">
           <h2 className="font-bold text-xl text-gray-300">
             Hello! Welcome to my online Profile.
           </h2>
