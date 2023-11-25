@@ -68,7 +68,7 @@ export function Project({
       {/* github icon */}
       <a
         href={url}
-        className="underline bottom-0 self-end text-cyan-500 hover:text-cyan-800"
+        className="underline bottom-0 self-end text-cyan-500 hover:text-cyan-800 cursor-pointer"
       >
         {" "}
         <FaGithub />{" "}
