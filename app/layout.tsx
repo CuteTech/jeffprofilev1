@@ -36,7 +36,7 @@ export default function RootLayout({
       />
       <link rel="manifest" href="/site.webmanifest"></link>
       <body className={`${inter.className} bg-black text-gray-50`}>
-        <main className="flex min-h-screen flex-col items-center justify-between ">
+        <main className="flex h-full relative flex-col items-center justify-between ">
           {children}
         </main>
         <Footer />

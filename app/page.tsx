@@ -2,12 +2,13 @@ import Image from "next/image";
 import CenteredDiv from "./components/CenteredDiv";
 import { FaGithubSquare, FaLinkedinIn, FaRegFilePdf } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
+import Projects from "./components/Projects";
 
 export default function Home() {
   return (
     <div className="w-full px-10">
       {/* heading contact */}
-      <div className="flex justify-between w-full py-3">
+      <div className="flex justify-between w-full py-2 relative top-0 mb-20">
         <div>
           <Image
             src="/logo.png"
@@ -27,9 +28,9 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center h-screen">
+      <div className="flex flex-col justify-center items-center h-screen relative mt-10">
         <CenteredDiv />
-        <div className="text-center space-y-3 py-2">
+        <div className="text-center space-y-3 py-2 ">
           <h2 className="font-bold text-xl text-gray-300">
             Hello! Welcome to my online Profile.
           </h2>
@@ -70,6 +71,9 @@ export default function Home() {
               </a>
             </p>
           </div>
+
+          {/* projects */}
+          <Projects />
         </div>
       </div>
     </div>
