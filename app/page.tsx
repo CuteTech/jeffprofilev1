@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="w-full px-10">
       {/* heading contact */}
-      <div className="flex justify-between w-full py-2 relative top-0 mb-20">
+      <div className="flex justify-between w-full py-2 relative items-center mb-20">
         <div>
           <Image
             src="/logo.png"
