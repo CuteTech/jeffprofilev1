@@ -35,15 +35,15 @@ export default function Home() {
             Hello! Welcome to my online Profile.
           </h2>
           <p className="text-gray-300">
-            I am a New York based SEO Consultant and Financial Analyst with a
-            passion for Web Development projects with my Business Partner{" "}
+            I am a New York based SEO Consultant and Business Analyst with a
+            passion for Web Development & Data Science.
+            {/* with my Business Partner{" "}
             <a
               href="https://www.linkedin.com/in/tonia-roganti"
               className="underline"
             >
               Tonia
-            </a>
-            .
+            </a> */}
           </p>
         </div>
         <div className="py-12 space-y-2">
