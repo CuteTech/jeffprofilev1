@@ -47,6 +47,7 @@ const Projects = () => {
       <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-10">
         {projects.map((project) => (
           <CardDefault
+            key={project.title}
             title={project.title}
             description={project.description}
             url={project.url}
