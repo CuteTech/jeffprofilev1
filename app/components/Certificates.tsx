@@ -12,7 +12,9 @@ const certs = [
 function Certificates() {
   return (
     <div className="pb-10">
-      <h2 className="font-bold text-xl text-gray-300">Certificates </h2>
+      <h2 className="font-bold text-xl text-gray-300 text-center">
+        Certificates{" "}
+      </h2>
       <div className="flex flex-col justify-center items-center  relative">
         {certs.map((cert) => (
           <div
