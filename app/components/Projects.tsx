@@ -28,11 +28,11 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className="space-y-2 relative mb-20">
+    <div className="space-y-2 relative pb-10">
       <h2 className="text-xl text-center font-bold text-gray-400 mb-4">
         Python Projects
       </h2>
-      <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4">
+      <div className="grid lg:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-4">
         {projects.map((project) => (
           <Project
             key={project.title}

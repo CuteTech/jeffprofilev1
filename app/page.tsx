@@ -3,6 +3,7 @@ import CenteredDiv from "./components/CenteredDiv";
 import { FaGithubSquare, FaLinkedinIn, FaRegFilePdf } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import Projects from "./components/Projects";
+import Certificates from "./components/Certificates";
 
 export default function Home() {
   return (
@@ -74,6 +75,7 @@ export default function Home() {
 
           {/* projects */}
           <Projects />
+          <Certificates />
         </div>
       </div>
     </div>
