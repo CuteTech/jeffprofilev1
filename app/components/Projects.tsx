@@ -46,13 +46,20 @@ const Projects = () => {
       </Typography>
       <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-10">
         {projects.map((project) => (
-          <CardDefault
+          // <CardDefault
+          //   key={project.title}
+          //   title={project.title}
+          //   description={project.description}
+          //   url={project.url}
+          //   image={project.image}
+          //   icon={<FaGithub />}
+          // />
+          <Project
             key={project.title}
             title={project.title}
             description={project.description}
             url={project.url}
             image={project.image}
-            icon={<FaGithub />}
           />
         ))}
       </div>
@@ -66,13 +73,18 @@ export function Project({
   title,
   description,
   url,
+  image,
 }: {
   title: string;
   description: string;
   url: string;
+  image: string;
 }) {
   return (
     <div className="space-y-2 p-2 border rounded-xl border-cyan-500 relative flex flex-col justify-between">
+      <div className="h-40 w-full rounded-xl overflow-hidden">
+        <img src={image} alt="project" className="w-full h-full" />
+      </div>
       <h3 className="text-lg text-center font-bold text-gray-400 cursor-pointer">
         <a href={url} className="underline hover:text-cyan-800">
           {title}
