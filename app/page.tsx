@@ -1,9 +1,11 @@
+"use client";
 import Image from "next/image";
 import CenteredDiv from "./components/CenteredDiv";
 import { FaGithubSquare, FaLinkedinIn, FaRegFilePdf } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import Projects from "./components/Projects";
 import Certificates from "./components/Certificates";
+import { Typography } from "@material-tailwind/react";
 
 export default function Home() {
   return (
@@ -32,12 +34,12 @@ export default function Home() {
       <div className="flex flex-col justify-center items-center  relative mt-10">
         <CenteredDiv />
         <div className="text-center space-y-3 py-2">
-          <h2 className="font-bold text-xl text-gray-300">
-            Hello! Welcome to my online Profile.
-          </h2>
+          <h2 className="font-bold text-xl text-gray-300"></h2>
+          <Typography variant="h1" color="gray" className="mb-2 text-center">
+            Hello! Welcome to my digital profile.
+          </Typography>
           <p className="text-gray-300">
-            I am a New York based SEO Consultant and Business Analyst with a
-            passion for Web Development & Data Science.
+            I am a Python Developer & SEO Consultant. Welcome to me profile!
             {/* with my Business Partner{" "}
             <a
               href="https://www.linkedin.com/in/tonia-roganti"
@@ -46,23 +48,43 @@ export default function Home() {
               Tonia
             </a> */}
           </p>
-        </div>
-        <div className="py-12 space-y-2">
-          <h2 className="text-xl text-center font-bold text-gray-400">
-            Contact Me
-          </h2>
-          <div className="flex space-x-4 items-center justify-center">
+          <div className="flex space-x-4 items-center justify-center pb-10">
             <a href="mailto:jeff.j.ahn@protonmail.com">
               <AiOutlineMail className="secondary-color h-6 w-6" />
             </a>
             <a href="https://www.linkedin.com/in/jeff-j-ahn/" target="_blank">
               <FaLinkedinIn className="secondary-color h-6 w-6" />
             </a>
+            <a href="/jeffahn-resume.pdf">
+              <FaRegFilePdf className="secondary-color h-6 w-6" />
+            </a>
+            <a href="https://github.com/jeffahn1">
+              <FaGithubSquare className="secondary-color h-6 w-6" />
+            </a>
           </div>
-          <div className="py-12 space-y-2">
-            <h2 className="text-xl text-center font-bold text-gray-400">
+        </div>
+        <div className="py-12 space-y-2">
+          {/* <Typography variant="h2" color="gray" className="mb-2 text-center">
+            Online Profiles
+          </Typography> */}
+          {/* <div className="flex space-x-4 items-center justify-center pb-10">
+            <a href="mailto:jeff.j.ahn@protonmail.com">
+              <AiOutlineMail className="secondary-color h-6 w-6" />
+            </a>
+            <a href="https://www.linkedin.com/in/jeff-j-ahn/" target="_blank">
+              <FaLinkedinIn className="secondary-color h-6 w-6" />
+            </a>
+            <a href="/jeffahn-resume.pdf">
+              <FaRegFilePdf className="secondary-color h-6 w-6" />
+            </a>
+            <a href="https://github.com/jeffahn1">
+              <FaGithubSquare className="secondary-color h-6 w-6" />
+            </a>
+          </div> */}
+          {/* <div className="py-12 space-y-2">
+            <Typography variant="h2" color="gray" className="mb-2 text-center">
               Resume & Github
-            </h2>
+            </Typography>
             <p className="text-center flex items-center justify-center space-x-4">
               <a href="/jeffahn-resume.pdf">
                 <FaRegFilePdf className="secondary-color h-6 w-6" />
@@ -71,7 +93,7 @@ export default function Home() {
                 <FaGithubSquare className="secondary-color h-6 w-6" />
               </a>
             </p>
-          </div>
+          </div> */}
 
           {/* projects */}
           <Projects />
