@@ -33,7 +33,7 @@ export function CardDefault({
 
         <Typography className="text-gray-400">{description}</Typography>
       </CardBody>
-      <CardFooter className="pt-0 flex space-x-2 items-center">
+      <CardFooter className="pt-4 flex space-x-2 items-center mx-auto">
         <Button
           className="text-gray-400"
           onClick={() => {
