@@ -10,7 +10,6 @@ import { Typography } from "@material-tailwind/react";
 export default function Home() {
   return (
     <div className="w-full px-10">
-      {/* heading contact */}
       <div className="flex justify-between w-full py-2 relative items-center mb-20">
         <div>
           <Image
