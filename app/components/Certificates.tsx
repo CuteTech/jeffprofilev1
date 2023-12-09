@@ -17,7 +17,10 @@ function Certificates() {
       </h2>
       <div className="flex flex-col justify-center items-center  relative">
         {certs.map((cert) => (
-          <div className="flex flex-col justify-center items-center relative mt-4">
+          <div
+            key={cert.name}
+            className="flex flex-col justify-center items-center relative mt-4"
+          >
             <a href={cert.url} target="_blank">
               <img src={cert.image} className="w-96" />
             </a>
