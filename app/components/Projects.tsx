@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { FaGithub } from "react-icons/fa";
-import { CardDefault } from "./features/CardDefault";
+// import { CardDefault } from "./features/CardDefault";
 import { Typography } from "@material-tailwind/react";
 
 const projects = [
