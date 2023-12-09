@@ -39,7 +39,9 @@ const Projects = () => {
   return (
     <div className="space-y-2 relative pb-10">
       {/* <h2 className="text-xl text-center font-bold text-gray-400 mb-4"></h2> */}
-      <h2 className="font-bold text-xl text-gray-300">Python Projects</h2>
+      <h2 className="font-bold text-xl text-gray-300 text-center">
+        Python Projects
+      </h2>
       <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-10">
         {projects.map((project) => (
           // <CardDefault

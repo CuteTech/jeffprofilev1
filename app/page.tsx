@@ -32,7 +32,7 @@ export default function Home() {
       <div className="flex flex-col justify-center items-center  relative mt-10">
         <CenteredDiv />
         <div className="text-center space-y-3 py-2">
-          <h2 className="font-bold text-xl text-gray-300">
+          <h2 className="font-bold text-xl text-gray-300 text-center">
             {" "}
             Hello! Welcome to my digital profile.
           </h2>
