@@ -33,10 +33,11 @@ export default function Home() {
       <div className="flex flex-col justify-center items-center  relative mt-10">
         <CenteredDiv />
         <div className="text-center space-y-3 py-2">
-          <h2 className="font-bold text-xl text-gray-300"></h2>
-          <Typography variant="h1" color="gray" className="mb-2 text-center">
+          <h2 className="font-bold text-xl text-gray-300">
+            {" "}
             Hello! Welcome to my digital profile.
-          </Typography>
+          </h2>
+
           <p className="text-gray-300">
             I am a Python Developer & SEO Consultant. Welcome to me profile!
             {/* with my Business Partner{" "}

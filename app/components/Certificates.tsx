@@ -1,5 +1,3 @@
-"use client";
-import { Typography } from "@material-tailwind/react";
 import React from "react";
 
 const certs = [
@@ -14,9 +12,7 @@ const certs = [
 function Certificates() {
   return (
     <div className="pb-10">
-      <Typography variant="h2" color="blue-gray" className="mb-2 text-center ">
-        Certificates
-      </Typography>
+      <h2 className="font-bold text-xl text-gray-300">Certificates </h2>
       <div className="flex flex-col justify-center items-center  relative">
         {certs.map((cert) => (
           <div
