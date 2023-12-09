@@ -5,7 +5,6 @@ import { FaGithubSquare, FaLinkedinIn, FaRegFilePdf } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import Projects from "./components/Projects";
 import Certificates from "./components/Certificates";
-import { Typography } from "@material-tailwind/react";
 
 export default function Home() {
   return (
