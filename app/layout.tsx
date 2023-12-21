@@ -22,6 +22,20 @@ export default function RootLayout({
         sizes="180x180"
         href="/apple-touch-icon.png"
       />
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-84P4F0S1SR"
+      ></script>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)}
+          gtag('js', new Date());
+          gtag('config', 'G-84P4F0S1SR');
+        `,
+        }}
+      ></script>
       <link
         rel="icon"
         type="image/png"
