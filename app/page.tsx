@@ -34,11 +34,11 @@ export default function Home() {
         <div className="text-center space-y-3 py-2">
           <h2 className="font-bold text-xl text-gray-300 text-center">
             {" "}
-            Hello! Welcome to my digital profile.
+            Hello! ✌️ Welcome to my digital profile! 
           </h2>
 
           <p className="text-gray-300">
-            I am a Python Developer & SEO Consultant. Welcome to me profile!
+            I am a Web Developer specializing in SEO and Business Development.
             {/* with my Business Partner{" "}
             <a
               href="https://www.linkedin.com/in/tonia-roganti"

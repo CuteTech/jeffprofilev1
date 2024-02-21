@@ -2,56 +2,100 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
 
-const projects = [
-  {
-    title: "Binary Search",
-    description: "Binary Search Algorithm for Python",
-    url: "https://github.com/jeffahn1/binary-search",
-    image:
-      "https://images.unsplash.com/photo-1564865878688-9a244444042a?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  },
-  {
-    title: "Deduplicate CSV File",
-    description: "Deduplicate rows in CSV file using python's csv package",
-    url: "https://github.com/jeffahn1/dedepulicator/blob/main/deduplicator.py",
-    image:
-      "https://images.unsplash.com/photo-1607798748738-b15c40d33d57?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  },
-  {
-    title: "Birthday Reminder",
-    description:
-      "Birthday Reminder using Python to email a notification to my email one day prior to the birthday",
-    url: "https://github.com/jeffahn1/birthday_1dayprior",
-    image:
-      "https://images.unsplash.com/photo-1513151233558-d860c5398176?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  },
-  {
-    title: "Filter CSV File",
-    description:
-      "Filter CSV file using python's csv package and write to new CSV file based on certian keywords",
-    url: "https://github.com/jeffahn1/csv_to_python",
-    image:
-      "https://images.unsplash.com/photo-1517512006864-7edc3b933137?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  },
-];
+const projects = {
+  'python':[
+    {
+      title: "Binary Search",
+      description: "Binary Search Algorithm for Python",
+      url: "https://github.com/jeffahn1/binary-search",
+      image:
+        "https://nypost.com/wp-content/uploads/sites/2/2020/08/wormhole-41-1.jpg?quality=90&strip=all&w=1200://images.unsplash.com/photo-1564865878688-9a244444042a?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    },
+    {
+      title: "CSV File Deduplicator",
+      description: "Deduplicate rows in CSV file using the csv package Python library",
+      url: "https://github.com/jeffahn1/dedepulicator",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxujz4bCZKVCJcClFmgelgGyRrnBwJFqf3VQ8n24qyZ0ZyElSrFNkhcHExNzcnyxxNZRs&usqp=CAU"
+    },
+    {
+      title: "Data Type File Organizer",
+      description:
+        "Organize storage of local files by type of data with Python",
+      url: "https://github.com/jeffahn1/file_organizer",
+      image:
+        "https://static.vecteezy.com/system/resources/previews/016/060/118/non_2x/concept-document-management-online-document-database-and-digital-file-storage-systems-or-software-record-keeping-database-technology-file-access-document-sharing-vector.jpg",
+    },
+    {
+      title: "Filter CSV File",
+      description:
+        "Filter CSV file with Python's csv package and write to new CSV file with user keyword input",
+      url: "https://github.com/jeffahn1/csv_to_python",
+      image:
+        "https://images.unsplash.com/photo-1517512006864-7edc3b933137?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    },
+    {
+      title: "Photo Editor",
+      description:
+        "Sharpen your Photo Files with Python",
+      url: "https://github.com/jeffahn1/photo_editor",
+      image:
+        "https://cdn.sanity.io/images/r2plryeu/production/45694bc88f25df1f64d7e4163a2b83da7058ebc0-2110x1264.png?q=90&fit=max&auto=format",
+    },
+    {
+      title: "Birthday Reminder",
+      description:
+        "Birthday Reminder using Python to notify by email one day prior to friend's birthday",
+      url: "https://github.com/jeffahn1/birthday_1dayprior",
+      image:
+        "https://images.unsplash.com/photo-1513151233558-d860c5398176?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    },
+  ],
+  javascript:[
+    {
+      title: "LinkedIn Profile Scraper",
+      description:
+        "Find hidden Linkedin contact details with this Javascript function",
+      url: "https://github.com/jeffahn1/linkedin_scraper",
+      image:
+        "https://www.stupidproxy.com/wp-content/uploads/2021/11/LinkedIn-proxies-for-Scraping-LinkedIn.jpg",
+    },
+    {
+      title: "Reading List App",
+      description:
+        "Web app designed for book enthusiasts to keep a list of their readings",
+      url: "https://github.com/jeffahn1/cs50_final_project",
+      image:
+        "https://miro.medium.com/v2/resize:fit:1200/1*V9GdNPhBPL0p-wgL3hMdwQ.png",
+    },
+  ]
+}
 
 const Projects = () => {
   return (
     <div className="space-y-2 relative pb-10">
-      {/* <h2 className="text-xl text-center font-bold text-gray-400 mb-4"></h2> */}
+  
       <h2 className="font-bold text-xl text-gray-300 text-center">
         Python Projects
       </h2>
       <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-10">
-        {projects.map((project) => (
-          // <CardDefault
-          //   key={project.title}
-          //   title={project.title}
-          //   description={project.description}
-          //   url={project.url}
-          //   image={project.image}
-          //   icon={<FaGithub />}
-          // />
+        {projects.python.map((project) => (
+
+          <Project
+            key={project.title}
+            title={project.title}
+            description={project.description}
+            url={project.url}
+            image={project.image}
+          />
+        ))}
+      </div>
+      <h2 className="font-bold text-xl text-gray-300 text-center">
+        JavaScript Projects
+      </h2>
+      <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-10">
+        {projects.javascript.map((project) => (
+       
           <Project
             key={project.title}
             title={project.title}
