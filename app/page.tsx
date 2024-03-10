@@ -38,7 +38,7 @@ export default function Home() {
           </h2>
 
           <p className="text-gray-300">
-            I am a Web Developer specializing in SEO and Business Development.
+            SEO | Business Development | FinTech | Web Development
             {/* with my Business Partner{" "}
             <a
               href="https://www.linkedin.com/in/tonia-roganti"

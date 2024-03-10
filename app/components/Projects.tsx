@@ -91,7 +91,7 @@ const Projects = () => {
         ))}
       </div>
       <h2 className="font-bold text-xl text-gray-300 text-center">
-        JavaScript Projects
+        Web Projects
       </h2>
       <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-10">
         {projects.javascript.map((project) => (
