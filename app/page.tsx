@@ -19,10 +19,7 @@ export default function Home() {
             priority
           />
         </div>
-        
-        <div>
           <button className="flex-inline bg-white items-center justify-end rounded-md p-1 text-[#1D9DBD] hover:bg-gray-100 hover:text-[#E78FB3] focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[#1D9DBD]" id="headlessui-popover-button-5" type="button" aria-expanded="false"><span className="sr-only">Open menu</span><svg className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge mt-0 text-white css-6flbmm" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="DehazeIcon"><path d="M2 15.5v2h20v-2H2zm0-5v2h20v-2H2zm0-5v2h20v-2H2z"></path></svg></button>
-        </div>
         {/* <div className="flex space-x-4">
           <a href="https://www.linkedin.com/in/jeff-j-ahn/" target="_blank">
             <FaLinkedinIn className="secondary-color h-4 w-4" />
