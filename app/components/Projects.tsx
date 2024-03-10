@@ -40,12 +40,12 @@ const projects = {
         "Sharpen your Photo Files with Python",
       url: "https://github.com/jeffahn1/photo_editor",
       image:
-        "https://cdn.sanity.io/images/r2plryeu/production/45694bc88f25df1f64d7e4163a2b83da7058ebc0-2110x1264.png?q=90&fit=max&auto=format",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaNwTHZYqhWlBjPDbhpoQUIf0sDpGg6CvnQXhvQE_crTSGJtN0ohRanixNTdi8Q9hwspU&usqp=CAU",
     },
     {
       title: "Birthday Reminder",
       description:
-        "Birthday Reminder using Python to notify by email one day prior to friend's birthday",
+        "Make Python remind you by email one day prior to a friend's birthday",
       url: "https://github.com/jeffahn1/birthday_1dayprior",
       image:
         "https://images.unsplash.com/photo-1513151233558-d860c5398176?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -55,7 +55,7 @@ const projects = {
     {
       title: "LinkedIn Profile Scraper",
       description:
-        "Find hidden Linkedin contact details with this Javascript function",
+        "Use JavaScript to collect Linkedin profile data",
       url: "https://github.com/jeffahn1/linkedin_scraper",
       image:
         "https://www.stupidproxy.com/wp-content/uploads/2021/11/LinkedIn-proxies-for-Scraping-LinkedIn.jpg",
@@ -67,6 +67,14 @@ const projects = {
       url: "https://github.com/jeffahn1/cs50_final_project",
       image:
         "https://miro.medium.com/v2/resize:fit:1200/1*V9GdNPhBPL0p-wgL3hMdwQ.png",
+    },
+    {
+      title: "Movie Search App",
+      description:
+        "Use this live database API to find your favorite movies",
+      url: "https://github.com/jeffahn1/movie_app",
+      image:
+        "https://blog.logrocket.com/wp-content/uploads/2020/11/movie-search-app.png",
     },
   ]
 }
