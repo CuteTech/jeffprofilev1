@@ -10,14 +10,8 @@ export default function Home() {
   return (
     <div className="w-full px-10">
       <div className="flex justify-between w-full py-2 relative items-center mb-20">
-        <div>
-          <Image
-            src="/logo.png"
-            alt="Next.js Logo"
-            width={40}
-            height={27}
-            priority
-          />
+        
+
         {/* <div className="flex space-x-4">
           <a href="https://www.linkedin.com/in/jeff-j-ahn/" target="_blank">
             <FaLinkedinIn className="secondary-color h-4 w-4" />
